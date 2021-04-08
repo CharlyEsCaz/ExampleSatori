@@ -24,3 +24,8 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    vRetrofit = '2.6.0'
+    vRetrofitLogInterceptor = '3.12.1'
+}
